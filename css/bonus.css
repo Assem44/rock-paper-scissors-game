@@ -1,0 +1,81 @@
+.active-bonus{
+    --btn-size: 100px ;
+}
+
+.active-bonus .header img{
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+    object-fit: cover;
+}
+.active-bonus .triangle-box{
+    background-image: url("../assets/images/bg-pentagon.svg");
+    width: 310px;
+    height: 310px;
+    margin-top: 117px;
+}
+
+.active-bonus .empty-circle{
+    width: 100px;
+    height: 100px;
+}
+
+.active-bonus .choice-btn{
+    border-width: 10px;
+}
+
+.active-bonus .scissors{
+    top: 0;
+    left: 0;
+    transform: translate(90%, -20%);
+}
+
+.active-bonus .paper{
+    transform: unset;
+    right: 0;
+    top: 0;
+
+    transform: translate(210%, 75%);
+}
+
+.active-bonus .rock{
+    transform: unset;
+    right: 0;
+    bottom: 0;
+    transform: translateX(15%);
+}
+
+.active-bonus .lizard,
+.active-bonus .spock{
+    display: flex;
+}
+.active-bonus .spock {
+    top: 0;
+    left: 0;
+    transform: translate(-40%, 68%);
+}
+
+.active-bonus .lizard {
+    bottom: 0;
+    left: 0;
+
+}
+
+.active-bonus .step-2-btn{
+    transform: unset;
+    width: 130px;
+    height: 130px;
+}
+
+@media (min-width: 600px) {
+    .active-bonus .header img{
+        width: 70px;
+        height: 70px;
+    }
+    .active-bonus .rules-modal .desktop{
+        transform: translateY(-50px);
+        width: 450px;
+        height: 480px;
+    }
+
+} 

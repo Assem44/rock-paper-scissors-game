@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bonus.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+
+      <img src="./assets/images/logo.svg" alt="Rock Paper Scissors Logo">
+      
+      <div class="score-box">
+        <span class="score-label">
+          score
+        </span>
+        <span class="score-value" id="scoreValue"></span>
+      </div>
+
+      
+    <div class="toggle-wrapper">
+      <label class="toggle">
+        <input type="checkbox" id="advancedToggle" hidden>
+        <span class="slider"></span>
+      </label>
+      <span class="toggle-label">bounus mode</span>
+    </div>
+
+    </div>
+
+    <div class="game">
+
+
+      <div class="triangle-box">
+
+        <button class="choice-btn paper" data-type="paper">
+          <img src="./assets/images/icon-paper.svg" alt="paper choice">
+        </button>
+
+        <button class="choice-btn scissors" data-type="scissors">
+          <img src="./assets/images/icon-scissors.svg" alt="scissors choice">
+        </button>
+
+        <button class="choice-btn rock" data-type="rock">
+          <img src="./assets/images/icon-rock.svg" alt="rock choice">
+        </button>
+
+
+        <button class="choice-btn lizard" data-type="lizard">
+          <img src="./assets/images/icon-lizard.svg" alt="lizard choice">
+        </button>
+
+
+        <button class="choice-btn spock" data-type="spock">
+          
+          <img src="./assets/images/icon-spock.svg" alt="spock choice">
+        </button>
+
+      </div>
+
+      <div class="step-2 hidden">
+
+        <div class="picked-box">
+          <p>you picked</p>
+          <div class="user-choice"></div>
+        </div>
+
+        <div class="result-announce hidden">
+            <h2 id="resultText"></h2>
+            <button id="playAgain" class="again-btn">play again</button>
+        </div>
+
+        <div class="picked-box">
+          <p>the house picked</p>
+          <div class="house-choice empty-circle"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <button class="rules-btn" id="rulesBtn">
+      rules
+    </button>
+
+    <div class="rules-modal hidden">
+
+      <div class="mobile">
+        <h3>
+          rules
+        </h3>
+
+        <div class="rules">
+          <img src="./assets/images/image-rules.svg" alt="Close Rules">
+        </div>
+
+        <img class="close" src="./assets/images/icon-close.svg" alt="Rules Image">
+
+      </div>
+      
+      <div class="desktop">
+        <div class="title">
+          <h3>rules</h3>
+          <img class="close" src="./assets/images/icon-close.svg" alt="Close Rules">
+        </div>
+
+          <div class="rules">
+            <img src="./assets/images/image-rules.svg" alt="Rules Image">
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="js/main.js"></script>
+  <script src="js/bonus.js"></script>
+</body>
+</html>
