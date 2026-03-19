@@ -30,10 +30,30 @@ To keep the codebase clean and maintainable, I separated the core logic from the
 
 ## Screenshots
 
-### Classic Mode
-![Mobile Classic](./screenshots/mobile-normal.jpg)
-![Desktop Classic](./screenshots/desktop-normal.jpg)
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap;">
+    
+  <div align="center">
+    <p>Mobile Classic</p>
+    <img src="assets/screenshots/mobile-normal.jpg" alt="Mobile Classic" style="max-height: 500px; width: auto;">
+  </div>
 
-### Bonus Mode
-![Mobile Bonus](./screenshots/mobile-bonus.jpg)
-![Desktop Bonus](./screenshots/desktop-bonus.jpg)
+  <div align="center">
+    <p>Desktop Classic</p>
+    <img src="assets/screenshots/desktop-normal.png" alt="Desktop Classic" style="max-width: 600px; height: auto;">
+  </div>
+</div>
+
+## Bonus Mode
+
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <div align="center">
+    <p>Mobile Bonus</p>
+    <img src="assets/screenshots/mobile-bonus.jpg" alt="Mobile Classic" style="max-height: 500px; width: auto;">
+  </div>
+
+  <div align="center">
+    <p>Desktop Bonus</p>
+    <img src="assets/screenshots/desktop-bonus.png" alt="Desktop Classic" style="max-width: 600px; height: auto;">
+  </div>
+
+</div>
